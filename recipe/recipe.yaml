@@ -41,6 +41,8 @@ tests:
 
 about:
   homepage: https://github.com/pavelzw/pixi-browse
+  repository: https://github.com/pavelzw/pixi-browse
+  documentation: https://github.com/pavelzw/pixi-browse
   summary: A TUI to browse conda packages
   license: BSD-3-Clause
   license_file: LICENSE

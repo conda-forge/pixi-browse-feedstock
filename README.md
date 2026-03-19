@@ -9,6 +9,10 @@ Package license: BSD-3-Clause
 
 Summary: A TUI to browse conda packages
 
+Development: https://github.com/pavelzw/pixi-browse
+
+Documentation: https://github.com/pavelzw/pixi-browse
+
 Current build status
 ====================
 

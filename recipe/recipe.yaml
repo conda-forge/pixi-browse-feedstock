@@ -1,5 +1,5 @@
 context:
-  version: "0.0.7"
+  version: "0.0.8"
   python_min: '3.13'
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pixi-browse/pixi_browse-${{ version }}.tar.gz
-  sha256: d4e326321dcfef313f1c9a81c8a9e05b92876ef4cdbeff096c9bba284ee86c45
+  sha256: e10985a606dabb5bd55e0a310a470c3842a6c4fd9733d9fb6f3135cfb993ee5b
 
 build:
   number: 0

@@ -1,5 +1,5 @@
 context:
-  version: "0.0.11"
+  version: "0.0.12"
   python_min: '3.13'
 
 package:
@@ -7,8 +7,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/13/ec/a6892daa67b6534b7f5c93cd0ef2d1b235ff779af7161aba530cd34ca75f/pixi_browse-${{ version }}.tar.gz
-  sha256: 2b884f5159d67c1396f04b62b7d30614fc1fac15dccebe176d124e13d3d46926
+  url: https://files.pythonhosted.org/packages/41/71/ef7eb6852a87e636aa2a9ddc8c9f6c827f8958ae249ed4cbccd798153ee0/pixi_browse-${{ version }}.tar.gz
+  sha256: 08b79c88ed931b50d04cde335eacb8e2196bd700514dc59ad821a419cc5bc717
 
 build:
   number: 0

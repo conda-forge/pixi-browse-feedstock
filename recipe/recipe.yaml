@@ -7,7 +7,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/cb/42/dda6d7100ef07d138aa02b14ff5ea02f0edf979f10c780b489da043d3887/pixi_browse-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/pixi-browse/pixi_browse-${{ version }}.tar.gz
   sha256: ff65a71bdbf497551d7ee3f97957ca2e72ac7fdbdcd9eb38603bc39d4bbe2997
 
 build:

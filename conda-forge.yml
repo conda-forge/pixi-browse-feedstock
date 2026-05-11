@@ -1,4 +1,5 @@
 conda_build_tool: rattler-build
+conda_install_tool: pixi
 github:
   branch_name: main
   tooling_branch_name: main
@@ -9,4 +10,4 @@ bot:
   inspection: update-grayskull
   automerge: true
 provider:
-  linux_64: azure
+  linux_64: default

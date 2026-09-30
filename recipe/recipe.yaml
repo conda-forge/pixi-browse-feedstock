@@ -11,7 +11,7 @@ source:
   sha256: 5a98e9b17553106e80780f99ad3bfc74159a86d729831ef1641e2fb138bd5840
 
 build:
-  number: 0
+  number: 1
   noarch: python
   python:
     entry_points:
@@ -31,9 +31,12 @@ requirements:
     - pyyaml >=6.0.3,<7
   run_constraints:
     - textual-diff-view >=0.1.5,<0.2
+    - python-magic >=0.4.27,<0.5
   extras:
     diff:
       - textual-diff-view >=0.1.5,<0.2
+    filetype:
+      - python-magic >=0.4.27,<0.5
 tests:
   - python:
       imports:
